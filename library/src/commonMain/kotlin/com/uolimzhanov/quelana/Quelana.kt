@@ -13,7 +13,7 @@ class Quelana(
     private val backgroundColor: Color = Color.WHITE,
     private val contentColor: Color = Color.BLACK,
     private val font: Font = Font(Font.SANS_SERIF, Font.PLAIN, 12),
-    private val padding: Padding = Padding(),
+    private val padding: Padding = Padding(10),
     private val hints: RenderingHints
 ) {
     private var y: Int = 0
