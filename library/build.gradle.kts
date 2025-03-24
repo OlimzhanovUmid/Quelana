@@ -27,7 +27,7 @@ mavenPublishing {
 
     coordinates(
         groupId = group.toString(),
-        artifactId = "library",
+        artifactId = "quelana",
         version = version.toString()
     )
 
