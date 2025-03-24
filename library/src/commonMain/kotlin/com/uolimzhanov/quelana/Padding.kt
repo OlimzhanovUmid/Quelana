@@ -9,3 +9,7 @@ class Padding(
     val horizontal = start + end
     val vertical = bottom + top
 }
+
+fun Padding(all: Int) = Padding(all, all, all, all)
+
+fun Padding(horizontal: Int, vertical: Int) = Padding(horizontal, vertical, horizontal, vertical)
